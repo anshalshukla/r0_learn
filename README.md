@@ -20,6 +20,16 @@ eddsa verify - 2617506
 
 fibonacci - 2396
 
+## Precompile Execution Cycles
+
+keccak256 - 22796
+
+sha256 - 6463
+
+ecdsa sign - 12882829
+
+ecdsa verify - 17523275
+
 ### Run
 
 `RISC0_DEV_MODE=0 RUST_LOG=info cargo run --release`
